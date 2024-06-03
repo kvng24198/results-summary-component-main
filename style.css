@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Hanken Grotesk", sans-serif;   
+    max-width: 1440px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 1000px;
+    display: flex;
+border: 1px solid black ;
+
+}
+.container-1{
+    border: 1px solid black;
+    background-image: linear-gradient('to bottom,  hsl(252, 100%, 67%),hsl(241, 81%, 54%)'); 
+    width: 0px;
+    height: 300px;
+    color: blue;
+    padding: 20px;
+}
+p{
+    width: 100px;
+}
+.container-2{
+width: 250px;
+padding: 20px;
+}
+.sum{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.reaction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: hsl(0, 100%, 67%);
+}
+.reaction span{
+}
+ 
