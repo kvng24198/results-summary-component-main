@@ -13,7 +13,7 @@ body{
     align-items: center;
 }
 .container{
-    width: 1000px;
+    width: 500px;
     display: flex;
 border: 1px solid black ;
 
