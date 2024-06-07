@@ -16,6 +16,7 @@ body{
     width: 510px;
     display: flex;
 border-radius: 15px;
+position: relative;
 
 }
 .content-1{
@@ -91,6 +92,10 @@ border-radius: 15px;
     color:  hsl(0, 100%, 67%);
     font-weight: 700;
 }
+.r-1{
+    display: flex;
+    align-items: center;
+}
 .r-2{
     padding-left: 60px;
 }
@@ -120,6 +125,10 @@ border-radius: 15px;
     color:  hsl(39, 100%, 56%);
     font-weight: 700;
 }
+.m-1{
+    display: flex;
+    align-items: center;
+}
 .m-2{
     padding-left: 60px;
 }
@@ -139,7 +148,11 @@ border-radius: 15px;
     padding-left: 5px;
     color: hsl(166, 100%, 37%);
     font-weight: 700;
-} 
+}
+ .v-1{
+    display: flex;
+    align-items: center;
+}
 .v-2{
     padding-left: 60px;
 } 
@@ -160,6 +173,10 @@ border-radius: 15px;
     color:   hsl(234, 85%, 45%);
     font-weight: 700;
 }
+.vi-1{
+    display: flex;
+    align-items: center;
+}
 .vi-2{
     padding-left: 60px;
 }
@@ -174,11 +191,13 @@ button{
 .container::after{
     content: "";
     background-color:#F6F8FC ;
+ 
  position: absolute;
-    width: 81%;
-    height: 67%;
-    top: 99px;
-    z-index: -5;
+    width: 101%;
+    height: 104%;
+    left: 5px;
+    z-index: -3;
     border-radius: 15px;
     justify-content: center;
+    top: -5px;
 }
