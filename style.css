@@ -188,6 +188,9 @@ button{
     width: 220px;
     border: none;
 }
+button:active{
+    background-image: linear-gradient(to bottom,  hsl(252, 100%, 67%),hsl(241, 81%, 54%)); 
+}
 .container::after{
     content: "";
     background-color:#F6F8FC ;
@@ -200,4 +203,11 @@ button{
     border-radius: 15px;
     justify-content: center;
     top: -5px;
+}
+/* media query */
+@media (max-width: 375px){
+    .container{
+        flex-direction: column;
+        width: 100%;
+    }
 }
