@@ -211,7 +211,10 @@ button:active{
     top: -5px;
 }
 /* media query */
-@media (max-width: 375px){
+@media (max-width: 378px){
+    body{
+        max-width: 378px;
+    }
 
     .container{
         flex-direction: column;
@@ -223,6 +226,8 @@ button:active{
         display: flex;
         justify-content: center;
         flex-direction: column;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
     }
     .content-2{
         width: 100%;
@@ -245,5 +250,5 @@ button:active{
     }
     button{
         width:300px ;
-    };
+    }
 }
